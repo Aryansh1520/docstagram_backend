@@ -42,7 +42,7 @@ jobs:
           SERVER_USER: ${{ secrets.SERVER_USER }}
         run: |
           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no "$SERVER_USER@$SERVER_IP" << 'EOF'
-            cd /home/ubuntu/<repository_name>
+            cd /home/ubuntu/docstagram_backend/
             source venv/bin/activate
             if [ "$VIRTUAL_ENV" != "" ]; then
               echo "Virtual environment activated successfully."
