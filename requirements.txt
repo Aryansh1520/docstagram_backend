@@ -1,0 +1,6 @@
+fastapi
+sqlalchemy
+psycopg2
+uvicorn
+gunicorn
+requests

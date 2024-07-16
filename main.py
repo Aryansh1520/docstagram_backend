@@ -83,6 +83,12 @@ class App:
                 base64_encoded = video_signature + base64_encoded
 
             return base64_encoded
+        
+                        
+        @self.app.get('/testcloudserver')
+        def test_server():
+                return {"status": "Server is running"}
+        
         @self.app.get("/conversations/{user_id}")
         def get_conversations(user_id: int, db: Session = Depends(self.db.get_db)):
             result_proxy = db.execute(text("""
@@ -143,10 +149,7 @@ class App:
                     data['chat'].append(row_data)
 
                 return data
-                
-        @self.app.get('/testcloudserver')
-        def test_server():
-                return "Hello Aryansh"
+
 
 
         @self.app.websocket("/ws/{user_id}")
