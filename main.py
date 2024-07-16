@@ -8,7 +8,6 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, Session
 import base64
 import os
-
 class Database:
     def __init__(self, url):
         self.engine = create_engine(url)
