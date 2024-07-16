@@ -50,7 +50,7 @@ jobs:
               echo "Virtual environment is not activated."
               exit 1  # Exit with an error if venv is not activated
             fi
-            pip install -r /home/ubuntu/<repository_name>/requirements.txt
+            pip install -r /home/ubuntu/docstagram_backend/requirements.txt
             sudo systemctl restart fastapi.service
           EOF
 
