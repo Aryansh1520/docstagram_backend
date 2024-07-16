@@ -87,7 +87,7 @@ class App:
                         
         @self.app.get('/testcloudserver')
         def test_server():
-                return {"status": "Server is running"}
+                return {"status": "Server is Hello"}
         
         @self.app.get("/conversations/{user_id}")
         def get_conversations(user_id: int, db: Session = Depends(self.db.get_db)):
