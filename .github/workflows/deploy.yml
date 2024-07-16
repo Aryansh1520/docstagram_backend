@@ -34,7 +34,7 @@ jobs:
           SERVER_IP: ${{ secrets.SERVER_IP }}
           SERVER_USER: ${{ secrets.SERVER_USER }}
         run: |
-          rsync -avz -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" --exclude='venv' --exclude='.github' . "$SERVER_USER@$SERVER_IP:/home/ubuntu/<repository_name>/"
+          rsync -avz -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" --exclude='venv' --exclude='.github' . "$SERVER_USER@$SERVER_IP:/home/ubuntu/docstagram_backend/"
 
       - name: Install dependencies and restart service
         env:
