@@ -69,7 +69,9 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str):
 def health_check():
     return {"status": "Server is running"}
 
-from sqlalchemy.exc import SQLAlchemyError
+@app.get("/say_hello")
+def say_hello():
+    return {"message": "Hello, Aryan"}
 
 @app.get("/db_health")
 def db_health_check():
