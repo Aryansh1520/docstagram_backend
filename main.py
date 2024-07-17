@@ -1,5 +1,5 @@
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect, Depends
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine , text
 from sqlalchemy.orm import sessionmaker
 from typing import List, Generator
 import json
@@ -74,9 +74,9 @@ from sqlalchemy.exc import SQLAlchemyError
 @app.get("/db_health")
 def db_health_check():
     try:
-        # Create a connection from the engine and execute a test query
+        # Create a connection from the engine and execute a test query using text()
         with db.engine.connect() as connection:
-            result = connection.execute("SELECT 1")
+            result = connection.execute(text("SELECT 1"))
             # Optionally, you can fetch the result if needed
             # result.fetchone()
         return {"status": "Database connection is OK"}
