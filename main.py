@@ -4,7 +4,11 @@ from sqlalchemy.orm import sessionmaker
 from typing import Dict, List, Generator
 import json
 from sqlalchemy.exc import SQLAlchemyError
-
+import logging
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(levelname)s - %(message)s',
+                    handlers=[logging.FileHandler('/home/ubuntu/docstagram_backend/server.log'),
+                              logging.StreamHandler()])
 app = FastAPI()
 
 class WebSocketManager:
@@ -13,11 +17,13 @@ class WebSocketManager:
 
     async def connect(self, websocket: WebSocket, user_id: str):
         self.active_connections[user_id] = websocket
+        logging.info(f"User {user_id} connected.")
         print(f"User {user_id} connected.")
 
     async def disconnect(self, user_id: str):
         if user_id in self.active_connections:
             del self.active_connections[user_id]
+            logging.info(f"User {user_id} disconnected.")
             print(f"User {user_id} disconnected.")
 
     async def send_personal_message(self, message: str, user_id: str):
@@ -26,6 +32,7 @@ class WebSocketManager:
             try:
                 await websocket.send_text(message)
             except Exception as e:
+                logging.error(f"Error sending message to {user_id}: {e}")
                 print(f"Error sending message to {user_id}: {e}")
 
     async def broadcast(self, message: str):
@@ -33,6 +40,7 @@ class WebSocketManager:
             try:
                 await websocket.send_text(message)
             except Exception as e:
+                logging.error(f"Error broadcasting message to {user_id}: {e}")
                 print(f"Error broadcasting message to {user_id}: {e}")
                 await self.disconnect(user_id)
 
@@ -59,6 +67,7 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str):
             message = await websocket.receive_text()
             data = json.loads(message)
             print(f"Message: {message}")
+            logging.info(f"Message: {message}")
 
             if 'recipient_id' in data:
                 recipient_id = data['recipient_id']
