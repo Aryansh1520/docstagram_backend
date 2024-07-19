@@ -1,0 +1,18 @@
+2024-07-19 15:12:49,399 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-19 15:12:56,686 - ERROR - JSON decoding error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: Expecting property name enclosed in double quotes: line 3 column 7 (char 66)
+2024-07-19 15:13:53,471 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-19 15:14:10,346 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.

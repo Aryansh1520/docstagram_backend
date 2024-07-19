@@ -7,7 +7,7 @@ from sqlalchemy.exc import SQLAlchemyError
 import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s',
-                    handlers=[logging.FileHandler('/home/ubuntu/docstagram_backend/server.log'),
+                    handlers=[logging.FileHandler('./server.log'),
                               logging.StreamHandler()])
 app = FastAPI()
 
@@ -64,21 +64,26 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str):
     await manager.connect(websocket, user_id)
     try:
         while True:
-            message = await websocket.receive_text()
-            data = json.loads(message)
-            print(f"Message: {message}")
-            logging.info(f"Message: {message}")
+            data = await websocket.receive_text()
+            try:
+                message = json.loads(data)
+                print(f"Message: {data}")
+                logging.info(f"Message: {data}")
 
-            if 'recipient_id' in data:
-                recipient_id = data['recipient_id']
-                await manager.send_personal_message(message, recipient_id)
-            else:
-                await manager.broadcast(f"User #{user_id} says: {data.get('message', 'No message provided')}")
+                if 'recipient_id' in message:
+                    recipient_id = message['recipient_id']
+                    await manager.send_personal_message(data, recipient_id)
+                else:
+                    await manager.broadcast(f"User #{user_id} says: {message.get('message', 'No message provided')}")
+            except json.JSONDecodeError as e:
+                logging.error(f"JSON decoding error for user {user_id}: {e}")
+                # Consider sending an error message back to the user
+                # await websocket.send_text("Invalid JSON format.")
     except WebSocketDisconnect:
         await manager.disconnect(user_id)
         await manager.broadcast(f"User #{user_id} left the chat")
     except Exception as e:
-        print(f"Error: {e}")
+        logging.error(f"Unexpected error for user {user_id}: {e}")
         await manager.disconnect(user_id)
         await manager.broadcast(f"User #{user_id} disconnected due to an error")
 
