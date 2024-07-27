@@ -16,3 +16,643 @@
   }
 }
 2024-07-19 15:14:10,346 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-19 15:55:18,484 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-19 15:55:21,242 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-19 15:55:25,849 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-19 15:55:25,850 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-19 15:55:40,035 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-19 15:55:41,164 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 00:52:44,721 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 01:02:29,290 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 01:02:41,557 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 01:02:45,996 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 01:02:49,767 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22a",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:02:49,767 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:02:52,047 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22a",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:02:52,047 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:02:53,337 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22a",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:02:53,338 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:03:31,558 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 01:06:06,967 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 01:06:14,659 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22a",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:06:14,659 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:06:56,446 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 01:06:59,331 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 01:07:07,842 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22a",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:07:07,842 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:07:50,630 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 01:07:55,671 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 01:08:01,433 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22a",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:08:01,433 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:09:03,751 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:09:03,751 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:09:45,709 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 01:14:35,162 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 01:14:39,735 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:14:39,735 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:14:46,445 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22c",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:14:46,445 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:14:51,342 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22d",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:14:51,342 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:15:00,182 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22d",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:15:00,182 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:15:04,780 - INFO - Message: {"recipient_id":"4c2307ba-3d40-442f-b1ff-b271f63904ca","message":{"author":{"id":"82091008-a484-4a89-ae75-a22bf8d6f3ac"},"createdAt":1722023104591,"id":"2140f5e3-31ef-4ad0-b27a-28ef7bb1cd6c","type":"text","text":"yess hey?"}}
+2024-07-27 01:15:04,780 - INFO - Sending personal message to 4c2307ba-3d40-442f-b1ff-b271f63904ca
+2024-07-27 01:15:11,028 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 01:15:16,201 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 01:15:26,295 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22d",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 01:15:26,296 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 01:15:32,449 - INFO - Message: {"recipient_id":"4c2307ba-3d40-442f-b1ff-b271f63904ca","message":{"author":{"id":"82091008-a484-4a89-ae75-a22bf8d6f3ac"},"createdAt":1722023132229,"id":"8846edad-3fec-452a-9856-5a51e1bd9c94","type":"text","text":"Ovhey"}}
+2024-07-27 01:15:32,449 - INFO - Sending personal message to 4c2307ba-3d40-442f-b1ff-b271f63904ca
+2024-07-27 01:19:08,689 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 01:22:36,978 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 01:23:34,408 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 01:56:42,647 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 01:56:49,168 - INFO - Message: {"recipient_id":"4c2307ba-3d40-442f-b1ff-b271f63904ca","message":{"author":{"id":"82091008-a484-4a89-ae75-a22bf8d6f3ac"},"createdAt":1722025608991,"id":"69037c9e-e9fa-41fe-a768-5d768e1a47fa","type":"image","height":2400.0,"name":"scaled_1000000018.png","size":145776,"uri":"/data/user/0/com.example.docstagram_chat/cache/scaled_1000000018.png","width":1080.0}}
+2024-07-27 01:56:49,169 - INFO - Sending personal message to 4c2307ba-3d40-442f-b1ff-b271f63904ca
+2024-07-27 02:06:45,699 - INFO - Message: {"recipient_id":"4c2307ba-3d40-442f-b1ff-b271f63904ca","message":{"author":{"id":"82091008-a484-4a89-ae75-a22bf8d6f3ac"},"createdAt":1722026205548,"id":"d0525dbd-9676-48e0-92e1-479d30ba0fcd","type":"text","text":"hey?"}}
+2024-07-27 02:06:45,699 - INFO - Sending personal message to 4c2307ba-3d40-442f-b1ff-b271f63904ca
+2024-07-27 02:11:45,373 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 02:11:45,374 - ERROR - Error broadcasting message to 82091008-a484-4a89-ae75-a22bf8d6f3ac: 
+2024-07-27 02:11:45,375 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 02:12:00,017 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 02:12:04,149 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 02:12:10,504 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22d",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 02:12:10,504 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 02:12:53,641 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 02:13:04,939 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22f",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 02:13:04,939 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 02:13:04,940 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac is offline. Sending notification.
+2024-07-27 03:36:13,390 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 03:42:01,115 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 03:42:08,887 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22f",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 03:42:08,887 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 03:42:08,888 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: WebSocketManager.send_offline_notification() missing 1 required positional argument: 'message'
+2024-07-27 03:42:08,888 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 03:42:54,175 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 03:43:18,647 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22f",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 03:43:18,648 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 03:43:18,648 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: WebSocketManager.send_offline_notification() missing 1 required positional argument: 'message'
+2024-07-27 03:43:18,648 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 03:47:18,922 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 03:47:26,608 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 03:48:06,857 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904g",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22f",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 03:48:06,881 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 03:48:49,028 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 03:48:56,623 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 03:49:19,499 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 03:49:23,336 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 03:49:27,416 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904g",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22f",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 03:49:27,416 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 03:49:33,642 - INFO - Message: {"recipient_id":"4c2307ba-3d40-442f-b1ff-b271f63904ca","message":{"author":{"id":"82091008-a484-4a89-ae75-a22bf8d6f3ac"},"createdAt":1722032373675,"id":"db62309d-fe4f-4781-bfe6-55039ee98904","type":"text","text":"der"}}
+2024-07-27 03:49:33,642 - INFO - Sending personal message to 4c2307ba-3d40-442f-b1ff-b271f63904ca
+2024-07-27 03:49:48,286 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 03:50:14,618 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 03:50:14,618 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 03:50:14,619 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: WebSocketManager.send_offline_notification() missing 1 required positional argument: 'message'
+2024-07-27 03:50:14,619 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 03:53:02,868 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 03:53:04,388 - ERROR - JSON decoding error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: Expecting value: line 1 column 1 (char 0)
+2024-07-27 03:53:38,612 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 03:53:44,565 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-27 03:53:44,566 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 03:53:44,566 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: WebSocketManager.send_offline_notification() missing 1 required positional argument: 'message'
+2024-07-27 03:53:44,566 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 03:56:02,825 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 03:56:04,814 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-27 03:56:04,814 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 03:56:04,814 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac is offline. Sending notification.
+2024-07-27 03:56:04,815 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-07-27 03:56:04,817 - DEBUG - load_verify_locations cafile='/home/aryan/Desktop/Server/venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2024-07-27 03:56:04,851 - DEBUG - connect_tcp.started host='fcm.googleapis.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-07-27 03:56:04,868 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7dbed4b721e0>
+2024-07-27 03:56:04,868 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7dbed3dd8150> server_hostname='fcm.googleapis.com' timeout=5.0
+2024-07-27 03:56:05,092 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7dbed3dbe210>
+2024-07-27 03:56:05,092 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-07-27 03:56:05,092 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'key=-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0nJAxYcAIiE8E\\nA5GwKoRwS3T81RyKtusQxWLQJrupdKh+uEhP+stABP1+/jOx6ss74sjVLkTkiYZc\\nInvHgWu5X0MeY3Hj5MiJdklFEwg5+T8ErRtODAw1LC19WX9gAFYWeZAaN4u0UZ4a\\n9Hx1aMctNLK86y2+thnUh0AWF0/fLoZXUtw47fCRDeb8Vkw2l16dz36hhqmU3nLK\\n/yHp9ut3TtnnRhYJ2FfYK2qeqrKZLdNjbQ9BWtj3xVO7kbrhiXlBdhp32Xf9EVgI\\ngWBuTfklLcxh62hkxDnEx82sSg2MuVrP+y5oZJ/W1rkq/iQ+Ex06qFIT5slzYKID\\nPUu+qB9fAgMBAAECggEAAtYdLU8SCjBDiWiHgx6GrFrLApycvxCmwxzgvL6JQzg5\\n3FQr1x9r8m7Kxci26mdyxKB+xe0mKffIXHcN4rog8wiHdKuAtOC5al2EsFbNGw7T\\npXVeNVYR0HA+rBGi9WLuQFEbIAZG3HUoiETWOhqopGPjQv2L8W+3GtiNMiueREgM\\n/2+w0UpFkthLmZnbNrXniXEdOTInakY/fTKzogXtKt3FhFQDYLI4+z4+cxh53n1u\\ntwrsmqorVm6H+jQVgAZEbGwW9GQoLhUuXerEbYTVKTGGlyKgTQm3sI9arPj/hYHN\\nfZtce9FpO8yglIVzYzhQcMug8VOKTOBmSF4wPT37BQKBgQD7+aTqvJlCSHwP0swm\\nCP7Z6au2YwhsYIVb5PKCIi/js314BnW3S2u8oWtzbL7gqGB+i85nJ8aAx//61p4Y\\ngN3SpCZdRCzyyc9kOn/0G7jdOt/oCk9H1FAD/MLcy9azfG/vD84GdyAaHXyxOlY0\\nTmIi0zX200PiTYPCdJcSq8Rd7QKBgQC3fxrg8x1D0HbLqFDTnhUtyrOP9AcoL8JY\\nQgP15I/+vNnMGRvqg/b26ou8qH8mbftrpKFbLwJWXfYalOE7DiGQPBI51v4xmglu\\nbHNvV8JDQw5AkIQWRabS8oYnEpkkmje50no0kMR7naJ+53+cnxZHgH+NGWTdoL2e\\nG/2Jid8o+wKBgHtj89OTicWAs2gYRSp3Cz3xBMpq0qwn1AZ9Jhh930+1DMMi/rBE\\nubyEm5bJcOuY6K/vjKLNQpK73embAY5kRLwq8DKJ+SznkKy3TQNgM/X6J718lvhI\\nyuo487+l/jykujeqWKyn10uSlwY+2AoDPGFrZqi5Kiv+43/tEjHtdVq9AoGAQqx/\\nkr8johFsKOH2xH3LSkE974+GzjZUUodiMwWiwLfUF5IED7l1khB1R86drNQHp/xA\\n2QYCvmkT1GLGWBPxZBw/rx6MbG+A/8uOQiXMI26JDjK0m/cg/8M5tZbPaHpUx0NQ\\nPitgCV6kvaHWP42apc5uClHw0YrnezzGaiRbnuMCgYBiLoj9XW7xKhrt5iGdCVLv\\n75/w4ZWahnmYE+L7coPOaUHshUJskDurG3qw9ejgv5RaZiJCvCTmEYp3hAw3qR5c\\n2yI1EsjxdHUndfOKf3OGWXprvoEAE2TYsTEYHlykw9mxU0FN/zck+b//j7NQt4b9\\n/JmnnG6gvnbseOKhiM2qGg==\\n-----END PRIVATE KEY-----\\n'"))
+2024-07-27 03:56:05,092 - DEBUG - response_closed.started
+2024-07-27 03:56:05,093 - DEBUG - response_closed.complete
+2024-07-27 03:56:05,093 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: Illegal header value b'key=-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0nJAxYcAIiE8E\nA5GwKoRwS3T81RyKtusQxWLQJrupdKh+uEhP+stABP1+/jOx6ss74sjVLkTkiYZc\nInvHgWu5X0MeY3Hj5MiJdklFEwg5+T8ErRtODAw1LC19WX9gAFYWeZAaN4u0UZ4a\n9Hx1aMctNLK86y2+thnUh0AWF0/fLoZXUtw47fCRDeb8Vkw2l16dz36hhqmU3nLK\n/yHp9ut3TtnnRhYJ2FfYK2qeqrKZLdNjbQ9BWtj3xVO7kbrhiXlBdhp32Xf9EVgI\ngWBuTfklLcxh62hkxDnEx82sSg2MuVrP+y5oZJ/W1rkq/iQ+Ex06qFIT5slzYKID\nPUu+qB9fAgMBAAECggEAAtYdLU8SCjBDiWiHgx6GrFrLApycvxCmwxzgvL6JQzg5\n3FQr1x9r8m7Kxci26mdyxKB+xe0mKffIXHcN4rog8wiHdKuAtOC5al2EsFbNGw7T\npXVeNVYR0HA+rBGi9WLuQFEbIAZG3HUoiETWOhqopGPjQv2L8W+3GtiNMiueREgM\n/2+w0UpFkthLmZnbNrXniXEdOTInakY/fTKzogXtKt3FhFQDYLI4+z4+cxh53n1u\ntwrsmqorVm6H+jQVgAZEbGwW9GQoLhUuXerEbYTVKTGGlyKgTQm3sI9arPj/hYHN\nfZtce9FpO8yglIVzYzhQcMug8VOKTOBmSF4wPT37BQKBgQD7+aTqvJlCSHwP0swm\nCP7Z6au2YwhsYIVb5PKCIi/js314BnW3S2u8oWtzbL7gqGB+i85nJ8aAx//61p4Y\ngN3SpCZdRCzyyc9kOn/0G7jdOt/oCk9H1FAD/MLcy9azfG/vD84GdyAaHXyxOlY0\nTmIi0zX200PiTYPCdJcSq8Rd7QKBgQC3fxrg8x1D0HbLqFDTnhUtyrOP9AcoL8JY\nQgP15I/+vNnMGRvqg/b26ou8qH8mbftrpKFbLwJWXfYalOE7DiGQPBI51v4xmglu\nbHNvV8JDQw5AkIQWRabS8oYnEpkkmje50no0kMR7naJ+53+cnxZHgH+NGWTdoL2e\nG/2Jid8o+wKBgHtj89OTicWAs2gYRSp3Cz3xBMpq0qwn1AZ9Jhh930+1DMMi/rBE\nubyEm5bJcOuY6K/vjKLNQpK73embAY5kRLwq8DKJ+SznkKy3TQNgM/X6J718lvhI\nyuo487+l/jykujeqWKyn10uSlwY+2AoDPGFrZqi5Kiv+43/tEjHtdVq9AoGAQqx/\nkr8johFsKOH2xH3LSkE974+GzjZUUodiMwWiwLfUF5IED7l1khB1R86drNQHp/xA\n2QYCvmkT1GLGWBPxZBw/rx6MbG+A/8uOQiXMI26JDjK0m/cg/8M5tZbPaHpUx0NQ\nPitgCV6kvaHWP42apc5uClHw0YrnezzGaiRbnuMCgYBiLoj9XW7xKhrt5iGdCVLv\n75/w4ZWahnmYE+L7coPOaUHshUJskDurG3qw9ejgv5RaZiJCvCTmEYp3hAw3qR5c\n2yI1EsjxdHUndfOKf3OGWXprvoEAE2TYsTEYHlykw9mxU0FN/zck+b//j7NQt4b9\n/JmnnG6gvnbseOKhiM2qGg==\n-----END PRIVATE KEY-----\n'
+2024-07-27 03:56:05,093 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 04:15:25,210 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 04:15:26,848 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-27 04:15:26,848 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 04:15:26,848 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: 'WebSocketManager' object has no attribute 'send_offline_notification'
+2024-07-27 04:15:26,851 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 04:17:35,625 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 04:17:36,717 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-27 04:17:36,717 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 04:17:36,718 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac is offline. Sending notification.
+2024-07-27 04:17:36,718 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-07-27 04:17:36,721 - DEBUG - load_verify_locations cafile='/home/aryan/Desktop/Server/venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2024-07-27 04:17:36,777 - ERROR - Error sending notification to user 82091008-a484-4a89-ae75-a22bf8d6f3ac: 'coroutine' object does not support the asynchronous context manager protocol
+2024-07-27 04:19:12,419 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 04:19:15,370 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 04:19:16,343 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-27 04:19:16,344 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 04:19:16,344 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac is offline. Sending notification.
+2024-07-27 04:19:16,344 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-07-27 04:19:16,347 - DEBUG - load_verify_locations cafile='/home/aryan/Desktop/Server/venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2024-07-27 04:19:16,376 - DEBUG - connect_tcp.started host='fcm.googleapis.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-07-27 04:19:16,404 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x71c6128ba780>
+2024-07-27 04:19:16,404 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x71c6128d8050> server_hostname='fcm.googleapis.com' timeout=5.0
+2024-07-27 04:19:16,788 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x71c6136c39e0>
+2024-07-27 04:19:16,788 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-07-27 04:19:16,788 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'key=-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0nJAxYcAIiE8E\\nA5GwKoRwS3T81RyKtusQxWLQJrupdKh+uEhP+stABP1+/jOx6ss74sjVLkTkiYZc\\nInvHgWu5X0MeY3Hj5MiJdklFEwg5+T8ErRtODAw1LC19WX9gAFYWeZAaN4u0UZ4a\\n9Hx1aMctNLK86y2+thnUh0AWF0/fLoZXUtw47fCRDeb8Vkw2l16dz36hhqmU3nLK\\n/yHp9ut3TtnnRhYJ2FfYK2qeqrKZLdNjbQ9BWtj3xVO7kbrhiXlBdhp32Xf9EVgI\\ngWBuTfklLcxh62hkxDnEx82sSg2MuVrP+y5oZJ/W1rkq/iQ+Ex06qFIT5slzYKID\\nPUu+qB9fAgMBAAECggEAAtYdLU8SCjBDiWiHgx6GrFrLApycvxCmwxzgvL6JQzg5\\n3FQr1x9r8m7Kxci26mdyxKB+xe0mKffIXHcN4rog8wiHdKuAtOC5al2EsFbNGw7T\\npXVeNVYR0HA+rBGi9WLuQFEbIAZG3HUoiETWOhqopGPjQv2L8W+3GtiNMiueREgM\\n/2+w0UpFkthLmZnbNrXniXEdOTInakY/fTKzogXtKt3FhFQDYLI4+z4+cxh53n1u\\ntwrsmqorVm6H+jQVgAZEbGwW9GQoLhUuXerEbYTVKTGGlyKgTQm3sI9arPj/hYHN\\nfZtce9FpO8yglIVzYzhQcMug8VOKTOBmSF4wPT37BQKBgQD7+aTqvJlCSHwP0swm\\nCP7Z6au2YwhsYIVb5PKCIi/js314BnW3S2u8oWtzbL7gqGB+i85nJ8aAx//61p4Y\\ngN3SpCZdRCzyyc9kOn/0G7jdOt/oCk9H1FAD/MLcy9azfG/vD84GdyAaHXyxOlY0\\nTmIi0zX200PiTYPCdJcSq8Rd7QKBgQC3fxrg8x1D0HbLqFDTnhUtyrOP9AcoL8JY\\nQgP15I/+vNnMGRvqg/b26ou8qH8mbftrpKFbLwJWXfYalOE7DiGQPBI51v4xmglu\\nbHNvV8JDQw5AkIQWRabS8oYnEpkkmje50no0kMR7naJ+53+cnxZHgH+NGWTdoL2e\\nG/2Jid8o+wKBgHtj89OTicWAs2gYRSp3Cz3xBMpq0qwn1AZ9Jhh930+1DMMi/rBE\\nubyEm5bJcOuY6K/vjKLNQpK73embAY5kRLwq8DKJ+SznkKy3TQNgM/X6J718lvhI\\nyuo487+l/jykujeqWKyn10uSlwY+2AoDPGFrZqi5Kiv+43/tEjHtdVq9AoGAQqx/\\nkr8johFsKOH2xH3LSkE974+GzjZUUodiMwWiwLfUF5IED7l1khB1R86drNQHp/xA\\n2QYCvmkT1GLGWBPxZBw/rx6MbG+A/8uOQiXMI26JDjK0m/cg/8M5tZbPaHpUx0NQ\\nPitgCV6kvaHWP42apc5uClHw0YrnezzGaiRbnuMCgYBiLoj9XW7xKhrt5iGdCVLv\\n75/w4ZWahnmYE+L7coPOaUHshUJskDurG3qw9ejgv5RaZiJCvCTmEYp3hAw3qR5c\\n2yI1EsjxdHUndfOKf3OGWXprvoEAE2TYsTEYHlykw9mxU0FN/zck+b//j7NQt4b9\\n/JmnnG6gvnbseOKhiM2qGg==\\n-----END PRIVATE KEY-----\\n'"))
+2024-07-27 04:19:16,789 - DEBUG - response_closed.started
+2024-07-27 04:19:16,789 - DEBUG - response_closed.complete
+2024-07-27 04:19:16,790 - ERROR - Error sending notification to user 82091008-a484-4a89-ae75-a22bf8d6f3ac: Illegal header value b'key=-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0nJAxYcAIiE8E\nA5GwKoRwS3T81RyKtusQxWLQJrupdKh+uEhP+stABP1+/jOx6ss74sjVLkTkiYZc\nInvHgWu5X0MeY3Hj5MiJdklFEwg5+T8ErRtODAw1LC19WX9gAFYWeZAaN4u0UZ4a\n9Hx1aMctNLK86y2+thnUh0AWF0/fLoZXUtw47fCRDeb8Vkw2l16dz36hhqmU3nLK\n/yHp9ut3TtnnRhYJ2FfYK2qeqrKZLdNjbQ9BWtj3xVO7kbrhiXlBdhp32Xf9EVgI\ngWBuTfklLcxh62hkxDnEx82sSg2MuVrP+y5oZJ/W1rkq/iQ+Ex06qFIT5slzYKID\nPUu+qB9fAgMBAAECggEAAtYdLU8SCjBDiWiHgx6GrFrLApycvxCmwxzgvL6JQzg5\n3FQr1x9r8m7Kxci26mdyxKB+xe0mKffIXHcN4rog8wiHdKuAtOC5al2EsFbNGw7T\npXVeNVYR0HA+rBGi9WLuQFEbIAZG3HUoiETWOhqopGPjQv2L8W+3GtiNMiueREgM\n/2+w0UpFkthLmZnbNrXniXEdOTInakY/fTKzogXtKt3FhFQDYLI4+z4+cxh53n1u\ntwrsmqorVm6H+jQVgAZEbGwW9GQoLhUuXerEbYTVKTGGlyKgTQm3sI9arPj/hYHN\nfZtce9FpO8yglIVzYzhQcMug8VOKTOBmSF4wPT37BQKBgQD7+aTqvJlCSHwP0swm\nCP7Z6au2YwhsYIVb5PKCIi/js314BnW3S2u8oWtzbL7gqGB+i85nJ8aAx//61p4Y\ngN3SpCZdRCzyyc9kOn/0G7jdOt/oCk9H1FAD/MLcy9azfG/vD84GdyAaHXyxOlY0\nTmIi0zX200PiTYPCdJcSq8Rd7QKBgQC3fxrg8x1D0HbLqFDTnhUtyrOP9AcoL8JY\nQgP15I/+vNnMGRvqg/b26ou8qH8mbftrpKFbLwJWXfYalOE7DiGQPBI51v4xmglu\nbHNvV8JDQw5AkIQWRabS8oYnEpkkmje50no0kMR7naJ+53+cnxZHgH+NGWTdoL2e\nG/2Jid8o+wKBgHtj89OTicWAs2gYRSp3Cz3xBMpq0qwn1AZ9Jhh930+1DMMi/rBE\nubyEm5bJcOuY6K/vjKLNQpK73embAY5kRLwq8DKJ+SznkKy3TQNgM/X6J718lvhI\nyuo487+l/jykujeqWKyn10uSlwY+2AoDPGFrZqi5Kiv+43/tEjHtdVq9AoGAQqx/\nkr8johFsKOH2xH3LSkE974+GzjZUUodiMwWiwLfUF5IED7l1khB1R86drNQHp/xA\n2QYCvmkT1GLGWBPxZBw/rx6MbG+A/8uOQiXMI26JDjK0m/cg/8M5tZbPaHpUx0NQ\nPitgCV6kvaHWP42apc5uClHw0YrnezzGaiRbnuMCgYBiLoj9XW7xKhrt5iGdCVLv\n75/w4ZWahnmYE+L7coPOaUHshUJskDurG3qw9ejgv5RaZiJCvCTmEYp3hAw3qR5c\n2yI1EsjxdHUndfOKf3OGWXprvoEAE2TYsTEYHlykw9mxU0FN/zck+b//j7NQt4b9\n/JmnnG6gvnbseOKhiM2qGg==\n-----END PRIVATE KEY-----\n'
+2024-07-27 04:19:57,669 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 04:20:00,831 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 04:20:01,860 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-27 04:20:01,860 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 04:20:01,860 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac is offline. Sending notification.
+2024-07-27 04:20:01,860 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-07-27 04:20:01,862 - DEBUG - load_verify_locations cafile='/home/aryan/Desktop/Server/venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2024-07-27 04:20:01,888 - ERROR - Error sending notification to user 82091008-a484-4a89-ae75-a22bf8d6f3ac: 'coroutine' object does not support the asynchronous context manager protocol
+2024-07-27 04:23:14,350 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 04:23:17,236 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 04:23:18,772 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-27 04:23:18,772 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 04:23:18,772 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac is offline. Sending notification.
+2024-07-27 04:23:18,772 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: name 'YOUR_ACCESS_TOKEN' is not defined
+2024-07-27 04:23:18,772 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 04:24:13,845 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 04:24:15,430 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-27 04:24:15,431 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 04:24:15,431 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac is offline. Sending notification.
+2024-07-27 04:24:15,432 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-07-27 04:24:15,433 - DEBUG - load_verify_locations cafile='/home/aryan/Desktop/Server/venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2024-07-27 04:24:15,460 - ERROR - Error sending notification to user 82091008-a484-4a89-ae75-a22bf8d6f3ac: 'coroutine' object does not support the asynchronous context manager protocol
+2024-07-27 04:26:10,608 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 04:26:14,091 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 04:26:14,596 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-27 04:26:14,597 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 04:26:14,597 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac is offline. Sending notification.
+2024-07-27 04:26:14,598 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-07-27 04:26:14,601 - DEBUG - load_verify_locations cafile='/home/aryan/Desktop/Server/venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2024-07-27 04:26:14,655 - DEBUG - connect_tcp.started host='fcm.googleapis.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-07-27 04:26:14,761 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7019ac9ce780>
+2024-07-27 04:26:14,762 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7019ac99bd50> server_hostname='fcm.googleapis.com' timeout=5.0
+2024-07-27 04:26:14,829 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7019ac9ce180>
+2024-07-27 04:26:14,829 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-07-27 04:26:14,830 - DEBUG - send_request_headers.complete
+2024-07-27 04:26:14,831 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-07-27 04:26:14,831 - DEBUG - send_request_body.complete
+2024-07-27 04:26:14,831 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-07-27 04:26:14,903 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'INVALID_KEY', [(b'Content-Type', b'text/html; charset=UTF-8'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 26 Jul 2024 22:56:14 GMT'), (b'Expires', b'Fri, 26 Jul 2024 22:56:14 GMT'), (b'Cache-Control', b'private, max-age=0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'Content-Security-Policy', b"frame-ancestors 'self'"), (b'X-XSS-Protection', b'1; mode=block'), (b'Server', b'GSE'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-07-27 04:26:14,903 - INFO - HTTP Request: POST https://fcm.googleapis.com/fcm/send "HTTP/1.1 401 INVALID_KEY"
+2024-07-27 04:26:14,904 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-07-27 04:26:14,906 - DEBUG - receive_response_body.complete
+2024-07-27 04:26:14,907 - DEBUG - response_closed.started
+2024-07-27 04:26:14,907 - DEBUG - response_closed.complete
+2024-07-27 04:26:14,907 - ERROR - Error sending notification to user 82091008-a484-4a89-ae75-a22bf8d6f3ac: Client error '401 INVALID_KEY' for url 'https://fcm.googleapis.com/fcm/send'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2024-07-27 04:26:14,907 - DEBUG - close.started
+2024-07-27 04:26:14,907 - DEBUG - close.complete
+2024-07-27 04:28:06,594 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 04:28:34,873 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 04:28:41,567 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655624460001,
+    "id": "634b2f0b-2486-4bfe-b36d-1c7d6313c7b3",
+    "status": "seen",
+    "text": "Guys! Did you know Imagine Dragons became ambassadors for u24.gov.ua ?",
+    "type": "text"
+  }
+}
+2024-07-27 04:28:41,567 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 04:28:41,568 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac is offline. Sending notification.
+2024-07-27 04:28:41,568 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-07-27 04:28:41,569 - DEBUG - load_verify_locations cafile='/home/aryan/Desktop/Server/venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2024-07-27 04:28:41,600 - DEBUG - connect_tcp.started host='fcm.googleapis.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-07-27 04:28:41,620 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x757a333c2450>
+2024-07-27 04:28:41,620 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x757a3551d4d0> server_hostname='fcm.googleapis.com' timeout=5.0
+2024-07-27 04:28:41,688 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x757a333c2360>
+2024-07-27 04:28:41,688 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-07-27 04:28:41,689 - DEBUG - send_request_headers.complete
+2024-07-27 04:28:41,689 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-07-27 04:28:41,689 - DEBUG - send_request_body.complete
+2024-07-27 04:28:41,690 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-07-27 04:28:41,761 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'INVALID_KEY', [(b'Content-Type', b'text/html; charset=UTF-8'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 26 Jul 2024 22:58:41 GMT'), (b'Expires', b'Fri, 26 Jul 2024 22:58:41 GMT'), (b'Cache-Control', b'private, max-age=0'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'Content-Security-Policy', b"frame-ancestors 'self'"), (b'X-XSS-Protection', b'1; mode=block'), (b'Server', b'GSE'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-07-27 04:28:41,762 - INFO - HTTP Request: POST https://fcm.googleapis.com/fcm/send "HTTP/1.1 401 INVALID_KEY"
+2024-07-27 04:28:41,762 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-07-27 04:28:41,763 - DEBUG - receive_response_body.complete
+2024-07-27 04:28:41,763 - DEBUG - response_closed.started
+2024-07-27 04:28:41,763 - DEBUG - response_closed.complete
+2024-07-27 04:28:41,764 - ERROR - Error sending notification to user 82091008-a484-4a89-ae75-a22bf8d6f3ac: Client error '401 INVALID_KEY' for url 'https://fcm.googleapis.com/fcm/send'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2024-07-27 04:28:41,764 - DEBUG - close.started
+2024-07-27 04:28:41,765 - DEBUG - close.complete
