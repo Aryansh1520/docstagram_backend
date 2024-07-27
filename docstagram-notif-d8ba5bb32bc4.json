@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "docstagram-notif",
+  "private_key_id": "d8ba5bb32bc40452752ddd22b14b52481f1980d6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCX6PZdJ9nHb3QG\nnfCJrDqy79SPHXbjQQ4gmakdeaSEZ2nAxGtKrwRAdYTsUdIO1eJcRf1FhBk58hQv\nuoSLbtnj3gHiW69VVRKT6HTm0A+i+SQDgrwDeTcryKHs4MGjmT9FCG0t+TI+46R8\nJ/PiJ8wQVjzZhgb86Zkej6R4+0Qyb2T5oA+HHOd4T0/fVtlt7WvpY6uYZoaTJCoH\n7PGeDsPntHUn+YyhPRNgj3lxyWGZuhOkeF9DUEpMNgrEI0XRfMIq/HP+U7d4oCHT\nTebJdjK4JMNg5p7XeL90ewxzApQQkpR0ECrsvZXDVB3iZ2zh3Mj44/cOxujS5WVW\nbt2CbJlVAgMBAAECggEAEQGMwQmCzRuaTNpWEQeFq74DGQF2q4K/KuGg59KUGxl7\noo+qpjn5GyE83/rZ7fy+Qk+4hpV/AHhsD5rNF1Hx1RtnsRhMBNzI/2Ns4OEGexty\nj20NkML7bOyhSgQwUVkI1vjWRikJWbaA1cBgQl9rriGFXuGs+xfIoz337u5MKGwZ\nWUI7T8A4sQVLc+/gD5eG6Ae+yHikF42jUOD5n+Q30JFXXcMsS5eB+7QZ7Wm+PmUg\nG+HRAiZk4bHJTzF9eYIQqov5TuarAm5MWAR+G2BFoO+CUDuaOAsNKcniaIDqmnvP\ncliA7sNMDkMJiiszs6ddLgcY+vhjvqTAMihoSODnIQKBgQDOqd9HUQBrGeRDA/Yx\nB2CBLGxfvYnsiayXv5P5qpbqA1mEU7OsFX0v9/DIteZFUXjoNpbuRwctr9egLsSB\n9/tZEwXAuJXc/au+uJrjJDca3z81Hp9yK0A1KmYsgyMRLf2zbV8V5dMh+V/xzxG2\n31kwodGr1lfdHDxV6QgQv5cp9QKBgQC8LNt/simx3ByB412EfQA84fJ2IPbN1CAX\nRqvWw46cjJXpdFero51KGYGTkl4RPhi6jPbKdeqsVwxf2smpfzOTcxlPcI5S5Frr\nOkhyensVHk1ug/MDwXzB2CefbssNNmWr4zvOa7jQmg0pkJU6qy8HhWz2a3XZ4G1h\ntTUY1b014QKBgQCLutFrb7ofr/7kzM3tcnZugDG6PfX+R0u5wl9zpEKrcJ5a2RkX\nVeQxxas4mbxay+4624YLD10sJ8Nb26Mj2R5JqJHwLx2ssJsptbmLsFXNxnn/GXhn\nAhVEnSk+GWBhYj4xzdZHgP/S7cBQR1hL1BGCzzZrv93icw/calX4tQGo7QKBgE6K\ngotH97Mu5g8osS3NZr4CqMq5c4nxkftlGfAn62xYGXI5hyYywkHdZ4IKw4x62KN0\nlsVmdi68noObtDQ0zXgrwFKx7hWXDoPD7d0qVhk4bqVEGbhlmAboi5E2EzZOkB0w\nWRQNTjRzOC8zE7ZLIPQIsrQfoi7wR3dSxPi6raDBAoGAT5diPZh8yHI2aj2XOdJ3\nR/x1Qa5RppRXQI9IuUn+qLDnmXStuvlJvti5VCOEBNCtcyA7blYEFu/l4ddjK2H1\nZ6NEjy6UUzE+8BYrrC+ZTpzPjQUrElqGnssX4EtTOXTCVEeF/yUxc/r7/GBfuJcP\nXf39mu+RJ81GzZ17mDG10gU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-s3vqq@docstagram-notif.iam.gserviceaccount.com",
+  "client_id": "117239326115586368161",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-s3vqq%40docstagram-notif.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -656,3 +656,103 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
 2024-07-27 04:28:41,764 - DEBUG - close.started
 2024-07-27 04:28:41,765 - DEBUG - close.complete
+2024-07-27 10:55:28,629 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 10:55:47,836 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 10:55:47,836 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 10:55:47,900 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: 'WebSocketManager' object has no attribute 'get_fcm_token'
+2024-07-27 10:55:47,900 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-27 18:02:38,506 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 18:04:28,941 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 18:04:34,779 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 18:17:24,359 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 18:19:33,246 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 18:20:09,080 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 19:04:28,133 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-27 19:04:34,447 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 19:04:57,245 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 19:04:57,245 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 19:05:07,520 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22v",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 19:05:07,520 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 19:05:16,629 - INFO - Message: {"recipient_id":"4c2307ba-3d40-442f-b1ff-b271f63904ca","message":{"author":{"id":"82091008-a484-4a89-ae75-a22bf8d6f3ac"},"createdAt":1722087315412,"id":"639af9c4-9015-41d0-8049-7faaf39fb585","type":"text","text":"hey"}}
+2024-07-27 19:05:16,629 - INFO - Sending personal message to 4c2307ba-3d40-442f-b1ff-b271f63904ca
+2024-07-27 19:32:12,240 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "imageUrl": "https://i.pravatar.cc/300?u=e52552f4-835d-4dbe-ba77-b076e659774d",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22v",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 19:32:12,240 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 19:32:21,862 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 19:34:15,272 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-27 19:35:11,357 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22v",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-27 19:35:11,357 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-27 19:40:11,734 - INFO - Message: {"recipient_id":"4c2307ba-3d40-442f-b1ff-b271f63904ca","message":{"author":{"id":"82091008-a484-4a89-ae75-a22bf8d6f3ac"},"createdAt":1722089410681,"id":"012e12de-ce19-4285-ac40-99ca1967138a","type":"image","height":2400.0,"name":"scaled_1000000018.png","size":145776,"uri":"/data/user/0/com.example.docstagram_chat/cache/scaled_1000000018.png","width":1080.0}}
+2024-07-27 19:40:11,737 - INFO - Sending personal message to 4c2307ba-3d40-442f-b1ff-b271f63904ca
+2024-07-27 19:43:45,725 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-27 19:44:04,791 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.

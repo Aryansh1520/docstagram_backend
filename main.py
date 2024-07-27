@@ -1,11 +1,17 @@
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
-import httpx
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
 from typing import Dict, List, Generator
 import json
 from sqlalchemy.exc import SQLAlchemyError
 import logging
+import firebase_admin
+from firebase_admin import messaging
+
+def initialize_firebase_app(credentials_path):
+    """Initializes the Firebase app with the given credentials."""
+    cred = firebase_admin.credentials.Certificate(credentials_path)
+    firebase_admin.initialize_app(cred)
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -14,10 +20,8 @@ logging.basicConfig(level=logging.DEBUG,
 app = FastAPI()
 
 class WebSocketManager:
-    def __init__(self, server_key_path: str):
-        with open(server_key_path) as f:
-            server_key_data = json.load(f)
-        self.firebase_server_key = server_key_data['private_key']  # Adjust based on actual key name
+    def __init__(self):
+
         self.active_connections: Dict[str, WebSocket] = {}
         self.offline_messages: Dict[str, List[str]] = {}
 
@@ -53,45 +57,29 @@ class WebSocketManager:
             await self.send_offline_notification(user_id, message)
 
     async def send_offline_notification(self, user_id: str, message: str):
-        """Sends a notification to an offline user using Firebase Cloud Messaging (FCM).
+        """Sends an offline notification to the specified user using Firebase HTTPv1."""
 
-        Args:
-            user_id (str): The ID of the user to send the notification to.
-            message (str): The message content to be displayed in the notification.
+        # Replace 'your_firebase_credentials_path' with the actual path to your credentials file
+        initialize_firebase_app('./docstagram-notif-d8ba5bb32bc4.json')
 
-        Returns:
-            dict (optional): The FCM response dictionary on successful delivery,
-                            or None on errors.
-        """
-        access = "25459060c9377cf0fc066f7453325aa7333af385"  # Replace with your actual access token
-        logging.info(f"User {user_id} is offline. Sending notification.")
-        print(f"User {user_id} is offline. Sending notification.")
+        # Construct a notification message
+        notification = messaging.Notification(
+            title="Docstagram",
+            body=message
+        )
 
-        fcm_url = "https://fcm.googleapis.com/fcm/send"
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {access}",  # Replace with your access token
-        }
-        payload = {
-            "to": f"/topics/{user_id}",  # Assuming each user is subscribed to a topic named with their user_id
-            "notification": {
-                "title": "New Message",
-                "body": message,
-            },
-            "data": {
-                "user_id": user_id,
-                "message": message,
-            },
-        }
+        # Construct a tar    for the notification
+        # Assuming you have a mapping between user_id and FCM token
+        # Replace 'get_fcm_token' with your actual logic to retrieve FCM token
+        fcm_token = await self.get_fcm_token(user_id)
+        target = messaging.Token(fcm_token)
 
-        async with httpx.AsyncClient() as client:
-            try:
-                response = await client.post(fcm_url, headers=headers, json=payload)
-                response.raise_for_status()  # Raise an exception for non-200 status codes
-                return response.json()  # Return FCM response on success
-            except (httpx.HTTPStatusError, Exception) as e:
-                logging.error(f"Error sending notification to user {user_id}: {e}")
-                return None  # Indicate failure
+        # Send the notification
+        try:
+            response = messaging.send(messaging.Message(notification=notification, token=target))
+            print('Successfully sent message:', response)
+        except Exception as e:
+            print('Error sending message:', e)
 
 
 class Database:
@@ -150,8 +138,7 @@ def db_health_check():
         return {"status": "Database connection failed", "error": str(e)}
 
 # Initialize the WebSocketManager and Database
-server_key_path = "./docstagram-notif-25459060c937.json"  # Path to your server_key.json file
 
-manager = WebSocketManager(server_key_path)
+manager = WebSocketManager()
 database_url = "postgresql://dev_aryansh:docstagram@localhost:5432/direct_messages_db"
 db = Database(database_url)
