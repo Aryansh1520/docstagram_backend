@@ -1,3 +1,4 @@
+from urllib.parse import urlencode
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
@@ -9,7 +10,6 @@ import firebase_admin
 from firebase_admin import messaging
 
 def initialize_firebase_app(credentials_path):
-    """Initializes the Firebase app with the given credentials."""
     cred = firebase_admin.credentials.Certificate(credentials_path)
     firebase_admin.initialize_app(cred)
 
@@ -18,6 +18,29 @@ logging.basicConfig(level=logging.DEBUG,
                     handlers=[logging.FileHandler('./server.log'),
                               logging.StreamHandler()])
 app = FastAPI()
+
+initialize_firebase_app("./docstagram-notif-d8ba5bb32bc4.json")
+
+
+
+async def send_notification(fcm_token):
+    """Sends a notification to the specified FCM token."""
+
+    message = messaging.Message(
+        notification=messaging.Notification(
+            title="Dummy Title",
+            body="Dummy Body"
+        ),
+        token=fcm_token
+    )
+
+    # Send the message
+    response = messaging.send(message)
+    print('Successfully sent message:', response)
+
+
+
+
 
 class WebSocketManager:
     def __init__(self):
@@ -57,29 +80,7 @@ class WebSocketManager:
             await self.send_offline_notification(user_id, message)
 
     async def send_offline_notification(self, user_id: str, message: str):
-        """Sends an offline notification to the specified user using Firebase HTTPv1."""
-
-        # Replace 'your_firebase_credentials_path' with the actual path to your credentials file
-        initialize_firebase_app('./docstagram-notif-d8ba5bb32bc4.json')
-
-        # Construct a notification message
-        notification = messaging.Notification(
-            title="Docstagram",
-            body=message
-        )
-
-        # Construct a tar    for the notification
-        # Assuming you have a mapping between user_id and FCM token
-        # Replace 'get_fcm_token' with your actual logic to retrieve FCM token
-        fcm_token = await self.get_fcm_token(user_id)
-        target = messaging.Token(fcm_token)
-
-        # Send the notification
-        try:
-            response = messaging.send(messaging.Message(notification=notification, token=target))
-            print('Successfully sent message:', response)
-        except Exception as e:
-            print('Error sending message:', e)
+            await send_notification("dAtFUaguQIaEvlah6EU67W:APA91bG8PY42hHnh3OLge1a2O4Ar76aje2yMDZJcZ-EAt3veSdxsJ0mmwmksKTAAXebDB6-ukvFneF7JXItJpJ9F8yqbymF_N2Nu9s2QW2NfBN_J81iC2Z15gp67d-SwJTNspymehsF0")
 
 
 class Database:
@@ -137,8 +138,10 @@ def db_health_check():
     except SQLAlchemyError as e:
         return {"status": "Database connection failed", "error": str(e)}
 
+
+
 # Initialize the WebSocketManager and Database
 
 manager = WebSocketManager()
-database_url = "postgresql://dev_aryansh:docstagram@localhost:5432/direct_messages_db"
+database_url = "postgresql://aryan:aryan1520@localhost:5432/fcm_token"
 db = Database(database_url)
