@@ -36,7 +36,6 @@ class FcmToken(Base):
 
     user_id = Column(String, primary_key=True, index=True)
     fcm_token = Column(String, nullable=False)
-
 # Database class
 class Database:
     def __init__(self, url: str):
