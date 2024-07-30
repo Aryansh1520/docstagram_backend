@@ -1188,3 +1188,491 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2024-07-30 02:28:32,731 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
 2024-07-30 02:58:43,734 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
 2024-07-30 02:59:05,395 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 03:30:01,095 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 03:30:01,903 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 03:30:01,903 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 03:30:01,903 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-07-30 03:30:01,907 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-07-30 03:30:01,959 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-07-30 03:30:02,897 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-07-30 03:30:02,898 - DEBUG - Starting new HTTPS connection (1): fcm.googleapis.com:443
+2024-07-30 03:30:03,234 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 03:33:20,913 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 03:33:20,913 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 03:33:21,272 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 03:36:52,361 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:21:48,137 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:21:53,913 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:21:53,914 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:21:53,917 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-07-30 11:21:53,922 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-07-30 11:21:53,973 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-07-30 11:21:54,316 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-07-30 11:21:54,318 - DEBUG - Starting new HTTPS connection (1): fcm.googleapis.com:443
+2024-07-30 11:21:54,724 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 11:23:20,821 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:23:23,422 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:23:29,325 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:23:29,326 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:23:29,329 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-07-30 11:23:29,333 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-07-30 11:23:29,382 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-07-30 11:23:29,601 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-07-30 11:23:29,606 - DEBUG - Starting new HTTPS connection (1): fcm.googleapis.com:443
+2024-07-30 11:23:30,086 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 11:23:47,741 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:23:47,741 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:23:48,264 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 11:25:34,111 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:25:36,596 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:25:37,380 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:25:37,380 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:25:37,381 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-07-30 11:25:37,383 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-07-30 11:25:37,420 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-07-30 11:25:38,099 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-07-30 11:25:38,099 - DEBUG - Starting new HTTPS connection (1): fcm.googleapis.com:443
+2024-07-30 11:25:38,616 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 11:26:12,959 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:26:22,875 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:26:24,360 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:26:24,361 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:26:24,364 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-07-30 11:26:24,366 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-07-30 11:26:24,403 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-07-30 11:26:24,813 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-07-30 11:26:24,815 - DEBUG - Starting new HTTPS connection (1): fcm.googleapis.com:443
+2024-07-30 11:26:25,326 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 11:26:53,853 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:26:57,435 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:26:58,083 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:26:58,083 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:26:58,084 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-07-30 11:26:58,087 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-07-30 11:26:58,122 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-07-30 11:26:58,820 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-07-30 11:26:58,822 - DEBUG - Starting new HTTPS connection (1): fcm.googleapis.com:443
+2024-07-30 11:26:59,420 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 11:27:32,358 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:27:42,374 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:27:43,521 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:27:43,521 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:27:43,522 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-07-30 11:27:43,525 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-07-30 11:27:43,562 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-07-30 11:27:44,294 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-07-30 11:27:44,296 - DEBUG - Starting new HTTPS connection (1): fcm.googleapis.com:443
+2024-07-30 11:27:45,008 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 11:30:41,783 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:30:46,835 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:30:47,953 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:30:47,954 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:30:47,956 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: string indices must be integers, not 'str'
+2024-07-30 11:30:47,956 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:32:27,912 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:32:28,937 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:32:28,938 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:32:28,940 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: string indices must be integers, not 'str'
+2024-07-30 11:32:28,940 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:33:23,523 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:33:24,465 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:33:24,465 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:33:24,468 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: string indices must be integers, not 'str'
+2024-07-30 11:33:24,468 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:36:29,140 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:36:29,945 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:36:29,946 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:41:46,555 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:41:46,555 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:41:53,724 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:41:53,724 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:45:35,441 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:45:40,360 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:45:41,252 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:45:41,252 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:45:41,255 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: object NoneType can't be used in 'await' expression
+2024-07-30 11:45:41,255 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:45:54,776 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:45:55,781 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:45:55,782 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:46:37,111 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:46:40,996 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:46:44,457 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:46:44,457 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:47:23,920 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:47:32,369 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:47:33,134 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:47:33,135 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:47:52,515 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:47:58,506 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:47:59,551 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:47:59,552 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:48:23,896 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:48:26,869 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:48:27,937 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:48:27,937 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:48:27,939 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: dictionary update sequence element #0 has length 1; 2 is required
+2024-07-30 11:48:27,939 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:49:52,997 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:49:53,915 - INFO - Message: {
+  "recipient_id": "82091008-a484-4a89-ae75-a22bf8d6f3ac",
+  "message": {
+    "author": {
+      "firstName": "John",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe"
+    },
+    "createdAt": 1655648404000,
+    "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22b",
+    "status": "seen",
+    "text": "Aryan Hey??",
+    "type": "text"
+  }
+}
+2024-07-30 11:49:53,915 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:49:53,917 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: dictionary update sequence element #0 has length 1; 2 is required
+2024-07-30 11:49:53,918 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:50:06,444 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:50:07,367 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:50:07,369 - ERROR - Unexpected error for user 4c2307ba-3d40-442f-b1ff-b271f63904ca: dictionary update sequence element #0 has length 1; 2 is required
+2024-07-30 11:50:07,369 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 11:55:03,437 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 11:55:04,453 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:55:04,456 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-07-30 11:55:04,460 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-07-30 11:55:04,510 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-07-30 11:55:05,099 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-07-30 11:55:05,101 - DEBUG - Starting new HTTPS connection (1): fcm.googleapis.com:443
+2024-07-30 11:55:05,715 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 11:55:06,123 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 11:55:35,795 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 11:55:35,939 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 11:55:36,199 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 12:01:34,761 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 12:04:46,105 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 12:04:51,875 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 12:04:51,876 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-07-30 12:04:51,878 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-07-30 12:04:51,880 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-07-30 12:04:52,953 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-07-30 12:04:52,955 - DEBUG - Starting new HTTPS connection (1): fcm.googleapis.com:443
+2024-07-30 12:04:53,403 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 12:18:27,065 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 12:18:27,068 - DEBUG - Resetting dropped connection: fcm.googleapis.com
+2024-07-30 12:18:27,542 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 12:18:39,833 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 12:18:39,980 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 12:19:24,070 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 12:19:24,908 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 12:20:18,838 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-30 12:20:27,288 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
+2024-07-30 12:20:27,288 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-30 12:20:43,853 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca connected.
+2024-07-30 12:20:46,081 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac connected.
+2024-07-30 12:21:00,007 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 12:21:21,669 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 12:21:35,274 - INFO - User 82091008-a484-4a89-ae75-a22bf8d6f3ac disconnected.
+2024-07-30 12:21:43,187 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 12:21:43,189 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-07-30 12:21:43,193 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-07-30 12:21:43,196 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-07-30 12:21:43,749 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-07-30 12:21:43,751 - DEBUG - Starting new HTTPS connection (1): fcm.googleapis.com:443
+2024-07-30 12:21:44,870 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 12:21:54,779 - INFO - Sending personal message to 82091008-a484-4a89-ae75-a22bf8d6f3ac
+2024-07-30 12:21:55,007 - DEBUG - https://fcm.googleapis.com:443 "POST /v1/projects/docstagram-notif/messages:send HTTP/11" 200 None
+2024-07-30 13:36:15,037 - INFO - User 4c2307ba-3d40-442f-b1ff-b271f63904ca disconnected.
